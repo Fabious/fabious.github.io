@@ -2,12 +2,24 @@
 
 https://fabious.github.io/
 
-## Develop locally
+## Develop Locally
 
 1. Clone repo and cd into it
 2. Run `bundle install`
 3. Run `bundle exec jekyll serve`
-4. To update GitHub Pages gem `bundle update github-pages`
+
+## Useful Commands
+
+Update GitHub Pages gem:
+```
+bundle update github-pages
+```
+
+List jekyll commands:
+```
+bundle exec jekyll
+```
+
 
 ## Stack
 
