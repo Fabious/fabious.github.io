@@ -2,24 +2,16 @@
 
 https://fabious.github.io/
 
-## Develop Locally
+## Local Environment Setup
 
-1. Clone repo and cd into it
-2. Run `bundle install`
-3. Run `bundle exec jekyll serve`
+If you have [Docker Compose](https://docs.docker.com/compose/) installed, view `docker-compose up` to start a local server to view the website.
 
-## Useful Commands
-
-Update GitHub Pages gem:
-```
-bundle update github-pages
-```
-
-List jekyll commands:
-```
-bundle exec jekyll
-```
-
+Alternatively, you can install and run the required tooling manually as follows:
+1. [Install](https://jekyllrb.com/docs/installation/) Ruby and Jekyll
+1. `git clone https://github.com/solid/solidproject.org.git`
+1. `cd solidproject.org`
+1. `bundle install`
+1. `bundle exec jekyll serve --livereload`
 
 ## Stack
 
