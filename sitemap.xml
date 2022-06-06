@@ -1,17 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    <url>
-        <loc>https://fabious.github.io/</loc>
-    </url>
-    <url>
-        <loc>https://fabious.github.io/blog/</loc>
-    </url>
-    <url>
-        <loc>https://fabious.github.io/blog/first/</loc>
-        <lastmod>2019-11-27</lastmod>
-    </url>
-    <url>
-        <loc>https://fabious.github.io/blog/second/</loc>
-        <lastmod>2019-11-28</lastmod>
-    </url>
-</urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>http://example.org/</loc><lastmod>2022-06-06T10:08:02+02:00</lastmod></url><url><loc>http://example.org/posts/my-first-post/</loc><lastmod>2022-06-06T10:08:02+02:00</lastmod></url><url><loc>http://example.org/posts/</loc><lastmod>2022-06-06T10:08:02+02:00</lastmod></url><url><loc>http://example.org/categories/</loc></url><url><loc>http://example.org/tags/</loc></url></urlset>
