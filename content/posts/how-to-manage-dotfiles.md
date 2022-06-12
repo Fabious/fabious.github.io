@@ -5,13 +5,8 @@ lastmod: 2022-06-07T21:37:50+02:00
 draft: true
 ---
 
-# How to manage dotfiles
-
-Spoiler : use git bare repository
-
 Switching between machines or installing new ones, i was quite tired having to copy/paste my dotfiles. (vim config, shell config, etc)
-
-Now I'm only using `git clone --bare`.
+Now I'm only using a bare repository.
 
 No complicated tools, no weird symlinks, just the power of Git.
 
@@ -34,7 +29,7 @@ with `git init --bare` you generate a folder that is exactly like the `.git` fol
 To use this power for managing our dotfiles, we will use a folder named `dotfiles`, the _brain_ (like a `.git` folder). Then the $HOME folder of our system will be the working tree.
 
 ```bash
-# place the brain here: /home/your-name/.dotfiles
+# init the brain
 git init --bare $HOME/.dotfiles
 
 # create an alias for ease of use
